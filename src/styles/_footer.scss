@@ -1,0 +1,40 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-left: 0%;
+    width: 100%;
+    ul{
+         padding:0;
+        list-style: none;
+    }
+    li {
+  display: inline;
+  float: left;
+  padding: 10px;
+}
+   .socialIcon{
+       display: inline;
+       display: block;
+   }
+  
+    .Social{
+    position: fixed;    
+    left: 0;
+    bottom: 0;
+    margin-left: 0%;
+   
+    // display: flex;
+    // flex-direction: row;
+    justify-content: space-around;
+    }
+    .mid{
+        text-align: center;
+   
+    }
+    img{
+    max-width: 20%;
+    height: 20px;
+    bottom: 0;
+    }
+}
